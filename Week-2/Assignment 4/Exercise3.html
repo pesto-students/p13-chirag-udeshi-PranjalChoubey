@@ -1,0 +1,74 @@
+<html>
+<head>
+    <!-- Set the character encoding to UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- Set the document rendering mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Define the viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set the title of the document -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- Heading for the starting lineup form -->
+    <h1>Starting Lineup</h1>
+    <!-- The form starts here and submits data to the specified URL using the POST method -->
+    <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+        <!-- Radio buttons for selecting the status of the lineup -->
+        <p>
+            Status:
+            <label>
+                <input type="radio" value="Draft" name="status" />
+                Draft
+            </label>
+            <label>
+                <input type="radio" value="Final" name="status" checked />
+                Final
+            </label>
+        </p>
+        <!-- Dropdown menu for selecting the game date -->
+        <p>
+            <label>Date</label>
+            <select name="gameDate">
+                <option value="March 20">March 20</option>
+                <option value="March 24">March 24</option>
+                <option value="April 2">April 2</option>
+                <option value="April 6">April 6</option>
+                <option value="April 13">April 13</option>
+            </select>
+        </p>
+        <!-- Checkboxes for selecting players -->
+        <p>
+            Players:<br />
+            <label>
+                <input type="checkbox" name="player" value="Aarav Agarwal" />
+                Aarav Agarwal
+            </label>
+            <br />
+            <label>
+                <input type="checkbox" name="player" value="Ava Johnson" />
+                Ava Johnson
+            </label>
+            <br />
+            <label>
+                <input type="checkbox" name="player" value="Julio Ortiz" />
+                Julio Ortiz
+            </label>
+            <br />
+            <label>
+                <input type="checkbox" name="player" value="Liam Rubio" />
+                Liam Rubio
+            </label>
+            <br />
+            <label>
+                <input type="checkbox" name="player" value="Emma Witherspoon" />
+                Emma Witherspoon
+            </label>
+        </p>
+        <!-- Submit button for sending the form data -->
+        <p>
+            <input value="Submit" name="submit" type="submit" />
+        </p>
+    </form>
+</body>
+</html>

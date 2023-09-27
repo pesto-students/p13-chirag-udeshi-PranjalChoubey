@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yesterday</title>
+  <style>
+    .container {
+      width: 600px;
+      height: 280px;
+      border: 2px solid blue;
+      padding: 5px;
+      background-color: #F0F0F0;
+    }
+
+    h2 {
+      font-family: Arial;
+      font-size: 16pt;
+      font-style: italic;
+      color: blue;
+    }
+
+    .yellow-section {
+      background-color: yellow;
+      float: left;
+      width: 200px;
+      padding: 10px;
+      margin-right: 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .no-bg-section {
+      /* No specific CSS styling */
+    }
+
+    .orange-section {
+      background-color: orange;
+      position: absolute;
+      top: 200px;
+      left: 110px;
+      width: 200px;
+      padding: 10px;
+    }
+
+    .orange-red-section {
+      background-color: rgb(255, 80, 0);
+      color: white;
+      float: right;
+      width: 200px;
+      padding: 10px;
+      margin-right: 40px;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Yesterday</h2>
+    <div class="yellow-section">
+      <p>Yesterday, All those backups seemed a waste of pay.<br>
+      Now my database has gone away.<br>
+      Oh I believe in yesterday.</p>
+    </div>
+    <div class="no-bg-section">
+      <p>Suddenly, There's not half the files there used to be,<br>
+      And there's a milestone hanging over me.<br>
+      The system crashed so suddenly.<br>
+      I pushed something wrong, What it was I could not say.</p>
+    </div>
+    <div class="orange-section">
+      <p>Now all my data's gone and I long for yesterday-ay-ay-ay.</p>
+    </div>
+    <div class="orange-red-section">
+      <p>Yesterday, The need for back-ups seemed so far away.<br>
+      I knew my data was all here to stay,<br>
+      Now I believe in yesterday.</p>
+    </div>
+  </div>
+</body>
+</html>
