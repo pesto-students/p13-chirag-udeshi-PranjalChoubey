@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table {
+            background: linear-gradient(forestgreen, darkgreen);
+            position: relative;
+            padding: 0;
+            margin: 0;
+            width: 400px;
+            height: 300px;
+        }
+
+        .card {
+            box-shadow: 3px 3px black;
+            transition: 0.3s;
+            width: 40%;
+            border-radius: 5px;
+        }
+
+        .cardTop {
+            position: absolute;
+            top: 100px;
+            left: 150px;
+            z-index: 20;
+        }
+
+        .cardBottom {
+            position: absolute;
+            top: 120px;
+            left: 240px;
+            z-index: 10;
+        }
+
+        .topLeft {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            height: 24px;
+            width: 24px;
+        }
+
+        .bottomRight {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            height: 24px;
+            width: 24px;
+        }
+
+        .center {
+            padding: 30px 20px 30px 20px;
+            text-align: center;
+        }
+
+        page {
+            position: relative;
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+        }
+
+        page[size="A3"] {
+            width: 29.7cm;
+            height: 42cm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="table">
+        <div class="card cardTop" style="width: 100px;height: 150px;background-color: white;">
+            <div class="topSymbol"><img style="width: 24px;height: 24px;" src="spades.svg" alt="spades" /></div>
+            <div class="center" style="font-size: 80px;color: black;">
+                A
+            </div>
+            <div class="bottomSymbol"><img style="width: 24px;height: 24px;" src="spades.svg" alt="spades"></div>
+        </div>
+        <div class="card cardBottom" style="width: 100px;height: 150px;background-color: white;text-align: center">
+            <div class="topSymbol"><img style="width: 24px;height: 24px;" src="heart.svg" alt="spades"></div>
+            <div class="center" style="font-size: 80px; color: red;">
+                5
+            </div>
+            <div class="bottomSymbol"><img style="width: 24px;height: 24px;" src="heart.svg" alt="spades"></div>
+        </div>
+    </div>
+    <!-- </div>
+</page> -->
+</body>
+
+</html>

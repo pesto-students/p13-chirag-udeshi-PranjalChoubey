@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style>
+    .form {
+      width: 400px;
+    }
+
+    .input {
+      margin: 10px 0;
+    }
+
+    .input label {
+      display: inline-block;
+      width: 100px;
+    }
+
+    .input input {
+      width: 250px;
+      border: 1px solid silver;
+    }
+
+    .input textarea {
+      width: 250px;
+      border: 1px solid silver;
+    }
+
+    .input input[type="file"] {
+      border: none;
+    }
+
+    .input input[type="submit"] {
+      width: fit-content;
+    }
+  </style>
+</head>
+<body>
+  <h1>Join a social network</h1>
+  <div class="form">
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post" enctype="multipart/form-data">
+      <div class="input">
+        <label for="name">Full name:</label>
+        <input type="text" name="name" id="fullName" required>
+      </div>
+      <div class="input">
+        <label for="email">Email address:</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="input">
+        <label for="about">About you:</label>
+        <textarea name="about" id="about" cols="50" rows="3"></textarea>
+      </div>
+      <div class="input">
+        <label for="picture">Photo:</label>
+        <input type="file" name="picture" id="picture">
+      </div>
+      <div class="input">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
