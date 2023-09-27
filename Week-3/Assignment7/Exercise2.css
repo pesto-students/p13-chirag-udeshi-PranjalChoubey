@@ -1,0 +1,29 @@
+@media only screen and (min-width: 600px) {
+    .benefits-container {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    nav li {
+        display: inline;
+    }
+
+    header > h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .vacation-container img {
+        width: 50vw;
+    }
+
+    .vacation-container { /* I'm assuming that this container is using flex by default because I can not really see the existing code. If it is not using flex then it will not work, the instead use float: right property */
+        flex-direction: row;
+    }
+
+    .vacation-container > div {
+        margin: 20px;
+    }
+}
