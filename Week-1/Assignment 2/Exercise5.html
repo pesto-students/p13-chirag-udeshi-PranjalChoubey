@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .Input{
+    }
+</style>
+</head>
+<body>
+    <form action="/submit" method="POST">
+       
+       <div>
+        <div>
+            <label for="username">Full name:</label>
+            <input class="Input" type="text" id="username" name="username" required>
+        </div>
+        <div>
+        <label for="email">Email address:</label>
+        <input class="Input" type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <lable for="Textarea">About you:</lable>
+        <textarea class="Input" aria-rowcount="3" aria-colcount="50"></textarea>
+    </div>
+    <div>
+        <label for="file">Photo:</label>
+        <input class="Input" type="file" id="picture" name="picture" required>
+    </div>
+    </div> 
+       <div>
+        <button>Sumbit</button>
+       </div>
+        
+    </form>
+</body>
+</html>
