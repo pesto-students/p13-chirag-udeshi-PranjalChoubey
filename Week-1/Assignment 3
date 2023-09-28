@@ -1,0 +1,31 @@
+Question: Which panel in Chrome DevTools should you use to inspect the DOM and CSS of a webpage?
+
+Answer: Elements
+
+Which panel in Chrome DevTools should you use to debug the JavaScript code on a webpage?
+
+Answer: Console
+
+Which panel in Chrome DevTools should you use to analyze the network requests and responses of a webpage?
+
+Answer: Network
+
+Which panel in Chrome DevTools should you use to inspect and manipulate browser storage on a webpage?
+
+Answer: Application
+
+Which panel in Chrome DevTools should you use to analyze the performance of a webpage and identify potential bottlenecks?
+
+Answer: Performance
+
+Which panel in Chrome DevTools should you use to analyze the security of a webpage and identify potential vulnerabilities?
+
+Answer: Security
+
+Which panel in Chrome DevTools should you use to view and modify the CSS styles of a webpage in real-time?\
+
+Answer: Elements(styles)
+
+Which panel in Chrome DevTools should you use to test the responsiveness of a webpage on different screen sizes?
+
+Answer: Performance

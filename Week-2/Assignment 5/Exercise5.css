@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!--  embeded stylesheet -->
+	<style>
+		label{ /* element selector to make label*/
+			display: inline-block;  /*inline-block*/
+			width: 120px; /* with 120px width*/
+		}
+
+		input,textarea{     /*multiple selector to make all input and textarea*/
+			width: 300px;    /* have width*/
+			padding: 10px;      /* with padding*/
+			margin-bottom:5px;   /* with margin bottom for gap between two input*/
+		}
+
+		input[type="submit"]{     /*input with attribute type submit*/
+			width: auto;           /*have an auto width*/
+		}
+
+		.required::after{       /*all required class with pseudo class selector*/
+			content:"*";         /*asterisk*/
+			color: red;    /*of red color*/
+		}
+		#note::before{    /*for note id before asterisk*/
+			content:"*";
+			color: red;
+		}
+
+		label+input{  /*an adjacent sibling selector input that is sibling of label*/
+			background-color: rgb(219,241,248); /*background Color*/
+		}
+	</style>
+</head>
+<body>
+<h1>Rate a Product</h1>
+<p id="note">indicates required field.</p>
+<form>
+	<label for="product" class="required">Product</label>
+	<input type="text" id="Product"><br>
+	<label for="pdate" class="required">Purchase Date</label>
+	<input type="text" id="pdate" placeholder="mm/dd/yyyy"><br>
+	<label for="rate" class="required">Rating</label>
+	<input type="text" id="rate"><br>
+	<label for="comment">Comments</label>
+	<textarea id="comment"></textarea><br>
+	<input type="submit" value="Submit Rating">
+</form>
+</body>
+</html>

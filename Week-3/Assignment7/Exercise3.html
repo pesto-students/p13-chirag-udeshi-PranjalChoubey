@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mediterranean Vacations</title>
+</head>
+<body>
+  <h1 style="color: blue;">Mediterranean Vacations</h1>
+  <h3 style="color: black;">Egypt</h3>
+
+  <!-- Responsive images for different DPRs -->
+  <img src="egypt_600.jpg" srcset="egypt_1200.jpg 2x, egypt_1800.jpg 3x" alt="Egypt">
+
+  <p>Egypt is a land of enduring beauty and rich culture. Explore the Gapital city of Cairo, the Great Pyramids of Giza.</p>
+
+  <!-- Responsive images for different viewport widths -->
+  <img srcset="luxor_600.jpg 600w, luxor_800.jpg 800w, luxor_1200.jpg 1200w" 
+       sizes="(min-width: 700px) 600px, (min-width: 500px) 400px, 200px"
+       src="luxor_600.jpg" alt="Luxor">
+
+  <p>Packages include airfare, lodging, and several guided tours!</p>
+  <ul>
+    <li>Deluxe Package: 7 days in Cairo, Aswan, Luxor and Alexandria, 4 day Nile River cruise.</li>
+    <li>Super Package: 4 days in Cairo, 3 day Nile River cruise.</li>
+    <li>Express Package: 4 days in Cairo and upper Egypt on land. Express land.</li>
+  </ul>
+
+  <!-- Art direction for different viewport widths -->
+  <picture>
+    <source media="(min-width: 500px)" srcset="hotel_wide.jpg">
+    <img src="hotel_narrow.jpg" alt="Hotel">
+  </picture>
+</body>
+</html>
